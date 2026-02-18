@@ -81,6 +81,11 @@ const tileMap = [
     "XXXXXXXXXXXXXXXXXXX" 
 ];
 
+const walls = new Set();
+const foods = new Set();
+const ghosts = new Set();
+let pacman;
+
 class Block {
     constructor(image, x, y, width, height) {
         this.image = image;
