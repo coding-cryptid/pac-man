@@ -86,6 +86,18 @@ const foods = new Set();
 const ghosts = new Set();
 let pacman;
 
+function loadMap() {
+    walls.clear();
+    foods.clear();
+    ghosts.clear();
+
+    for (let r = 0; r < rowCount; r++) {
+        for (let c = 0; c < colCount; c++) {
+        }
+    }
+}
+
+
 class Block {
     constructor(image, x, y, width, height) {
         this.image = image;
