@@ -134,10 +134,11 @@ function loadMap() {
 
 function update() {
     draw();
+    setTimeout(update, 50);
 }
 
 function draw() {
-    
+     
 }
 
 class Block {
