@@ -126,7 +126,7 @@ function loadMap() {
             else if (tileMapChar === "P") {
                 pacman = new Block(pacmanRightImage, x, y, tileSize, tileSize);
             }
-             else if (tileMapChar === "O") {
+             else if (tileMapChar === " ") {
                 const food = new Block(null, x + 14, y + 14, 4, 4);
                 foods.add(food);
             }
