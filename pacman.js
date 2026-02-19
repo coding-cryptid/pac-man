@@ -26,6 +26,10 @@ window.onload = function() {
     context = gameBoard.getContext("2d");
 
     loadImages();
+    loadMap();
+    console.log(walls.size);
+    console.log(foods.size);
+    console.log(ghosts.size);
 }
 
 function loadImages() {
