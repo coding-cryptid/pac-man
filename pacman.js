@@ -27,9 +27,7 @@ window.onload = function() {
 
     loadImages();
     loadMap();
-    console.log(walls.size);
-    console.log(foods.size);
-    console.log(ghosts.size);
+    
 }
 
 function loadImages() {
